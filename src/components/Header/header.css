@@ -1,0 +1,48 @@
+.app-header {
+  background: bisque;
+  padding-top: 10px;
+}
+.app-header-navbar {
+  padding: 10px 10px 10px 30px;
+}
+.app-header-main {
+  display: flex;
+  justify-content: flex-start;
+  align-items:stretch;
+  color: brown;
+}
+.app-header-logo {
+  max-width: 230px;
+  /* min-width: 30px; */
+  /* min-height: 30%;*/
+  max-height: 230px;
+  /* height: auto; */
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+p{
+    margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: rgb(244, 141, 7);
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+li{
+    margin-right: 50px;
+}
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+hr{
+  border-top: solid;
+}
